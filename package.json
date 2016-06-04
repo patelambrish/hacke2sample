@@ -106,6 +106,7 @@
     "npm": "^2.14.20"
   },
   "scripts": {
+    "postinstall": "bower install && grunt build",
     "test": "grunt test",
 
     "update-webdriver": "node node_modules/protractor/bin/webdriver-manager update",
